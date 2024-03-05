@@ -18,8 +18,9 @@ do
         int num1 = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("Informe um número inteiro: ");
         int num2 = Convert.ToInt32(Console.ReadLine());
-        var calculadora = new Calculadora();
-        Console.WriteLine($"A soma dos números {num1} + {num2} = {calculadora.Soma(num1, num2)} ");
+        //var calculadora = new Calculadora();
+        Console.WriteLine($"A soma dos números {num1} + {num2} = {Calculadora.Soma(num1, num2)} ");
+        // sucesso
         entrada = false;
     }
     catch (FormatException e)
